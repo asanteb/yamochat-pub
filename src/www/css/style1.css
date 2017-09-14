@@ -1,0 +1,227 @@
+div{
+    padding: 0px;
+    color: #000000;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.container{
+    background-color:#white;
+    display:flex;
+		width:100%;
+		height: 100%;
+    padding: 0px;
+}
+
+.HomeContainer{
+    background-color:#2E4272;
+    display:flex;
+		width:100%;
+		height: 100%;
+    padding: 0px;
+}
+
+.MainSelector{
+    background-color:#4F628E;
+    height: 100%;
+    width: 70%;
+    flex-grow: 1;
+		padding: 0px;
+}
+
+.LeftSideBar{
+		overflow-y: hidden;
+		width: 15%;
+    background-color:#7887AB;
+		padding: 0px;
+}
+
+.RightSideBar{
+		overflow-y: hidden;
+		width: 15%;
+    background-color:#7887AB;
+		padding: 0px;
+}
+
+.ProfileDialogue {
+  background-color: black !important;
+}
+
+.ProfileContainer{
+  overflow: hidden;
+  background-color: #f059a4;
+  display:flex;
+  vertical-align: middle;
+  width:100%;
+  height: 85%;
+  padding: 4px;
+}
+.ProfileMainContainer{
+  overflow: hidden;
+  width: 100%;
+  background-color:#7887AB;
+  padding: 7px;
+  color: white;
+}
+.ProfileMain{
+  overflow-y: hidden;
+  height: 90%;
+  width: 100%;
+  background-color: white;
+  bottom: 16px;
+  padding: 10px;
+}
+
+.ProfileLeft{
+  overflow-y: hidden;
+  background-color:#9FA8DA;
+  padding: 0px;
+}
+
+.toolbar{
+  padding: 0px;
+  width: 100%;
+}
+
+.MainApp{
+  padding: 0px;
+}
+
+.chat{
+    background-color:#4F628E;
+    height: 100%;
+    width: 80%;
+    flex-grow: 1;
+		padding: 0px;
+}
+.MainBox{
+    position: absolute;
+    top: 45.69px; /* Header Height */
+    bottom: 45.69px; /* Footer Height */
+    width: 100%;
+    background-color: #ffffff;
+    overflow-y: auto;
+    padding: 0px;
+    }
+
+#chatBox{
+  position: absolute;
+  bottom: 0;
+  background-color: #66CCCC;
+  height: 80px;
+  width: 80%;
+
+}
+
+.message-input{
+  position: relative;
+  margin: auto;
+  width: 65%;
+  border: 3px solid green;
+  padding: 1px 0;
+  top: 50%;
+  transform: translateY(-50%);
+
+}
+
+.chats-overlay{
+  width: 5%;
+  padding: 0px;
+  background-color:#5f6c7a;
+  overflow: hidden;
+
+}
+#chatss{
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  background-color:#5f6c7a;
+  overflow: : auto;
+
+}
+
+#chat-icons{
+  overflow: auto ;
+  width: 100%;
+  height: 100%;
+}
+
+.chat-list{
+		overflow-y: hidden;
+		width: 15%;
+    background-color:#7887AB;
+		padding: 0px;
+}
+.avatar{
+}
+
+.message-text{
+  flex-grow: 1
+}
+
+.message{
+  display: flex;
+  text-align: left;
+  padding: 0px;
+}
+
+.messages{
+  float: left;
+  height: 80%;
+  padding: 12px;
+}
+
+.message_form{
+  padding: 5px;
+  height: 10%;
+}
+
+.message-input{
+  vertical-align: text-top;
+}
+
+.right-container{
+  height: 91%;
+}
+.settings-menu{
+  margin: 0;
+  overflow-y: hidden;
+}
+.settings-inner{
+  margin: 0 auto;
+  padding: 20px
+}
+
+.uploader1{
+  visibility: hidden;
+}
+
+#serverIcon{
+  margin: 0 auto;
+  background-color: #f00;
+  width: 50px;
+  height: 50px;
+}
+.serverIcon{
+  text-align: center;
+  padding: 0px;
+
+}

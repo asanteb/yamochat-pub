@@ -1,0 +1,267 @@
+#root{
+  width: 100%;
+  height: 100%;
+}
+.RoomContainer{
+  display: table;
+  width: 100%;
+  height: 100vh;
+  background-color: #282828;
+}
+#RoomMainContainer{
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.VideoContainer{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0 auto;
+  width: 80vh;
+  height: 80vh;
+}
+.VideoTopContainer{
+  display:flex;
+  width:100%;
+  height: 50%;
+}
+.VideoBotContainer{
+  display:flex;
+  width:100%;
+  height: 50%;
+}
+.VidSplit{
+  width: 50%;
+  height: 100%;
+  padding: 8px;
+  box-shadow: -1px 5px 20px 9px;
+
+}
+.vid1{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.vid2{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.vid3{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.vid4{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.vid1 video{
+  position: absolute;
+    left: 50%;
+    top: 50%;
+    /* The following will size the video to fit the full container. Not necessary, just nice.*/
+    height: 100%;
+    width: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    object-fit: fill;
+    z-index: 0;
+    background-color: #53565a;
+}
+.vid1 div{
+  position: relative;
+  /*display: inline-block;*/
+  z-index: 1;
+}
+.vid2 video{
+  position: absolute;
+    left: 50%;
+    top: 50%;
+    /* The following will size the video to fit the full container. Not necessary, just nice.*/
+    height: 100%;
+    width: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    object-fit: fill;
+    z-index: 0;
+    background-color: #53565a;
+}
+.vid2 div{
+  position: relative;
+  /*display: inline-block;*/
+  z-index: 1;
+}
+.vid3 video{
+  position: absolute;
+    left: 50%;
+    top: 50%;
+    /* The following will size the video to fit the full container. Not necessary, just nice.*/
+    height: 100%;
+    width: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    object-fit: fill;
+    z-index: 0;
+    background-color: #53565a;
+}
+.vid3 div{
+  position: relative;
+  /*display: inline-block;*/
+  z-index: 1;
+}
+.vid4 video{
+  position: absolute;
+    left: 50%;
+    top: 50%;
+    /* The following will size the video to fit the full container. Not necessary, just nice.*/
+    height: 100%;
+    width: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    object-fit: fill;
+    background-color: #53565a;
+    z-index: 0;
+}
+.vid4 div{
+  position: relative;
+  /*display: inline-block;*/
+  z-index: 1;
+}
+
+.vid_inner_top_controls{
+  width:100%;
+  height: 50%;
+  padding: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+.vid_left_inner{
+  float: left;
+}
+.vid_right_inner{
+  float: right;
+}
+.vid_center_inner{
+  margin:0 auto;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  top: 50%;
+}
+.vid_inner_bottom{
+  display:flex;
+  width:100%;
+  height: 50%;
+  padding: 4px;
+  align-items: flex-end;
+  top: 0px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+.BottomMenu{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+.RoomRow{
+  height: 50px;
+  display:table-row;
+}
+.RoomSingle{
+  margin: 0 auto;
+  width: 100%;
+  display: table-cell;
+}
+.RoomFlexContainer{
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+.ChatBox{
+  display: table;
+  position: relative;
+  width: 25%;
+  height: 100%;
+  background-color: white;
+  float: right;
+  border: 1px solid gray;
+
+}
+
+#ChatInput{
+  outline: 1px solid gray;
+  width: 100%;
+  bottom: 0;
+  padding: 10px;
+  display: flex;
+}
+#MessageContainer{
+  position: relative;
+  padding: 10px;
+  outline: 1px solid gray;
+  width: 100%;
+  height: 100%;
+}
+.RoomChatRow{
+  height: 63px;
+  display:table-row;
+}
+
+/*HOME STYLING*/
+.HomeBody{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  display:table-row;
+}
+.Home{
+  display: table;
+  width: 100vw;
+  height: 100vh;
+}
+.HomeSideBar{
+  height: 100%;
+  width: 15%;
+  float: left;
+  background-color: grey;
+}
+.HomeMain{
+  width: 85%;
+  height: 100%;
+  padding: 12px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.HomeToolBar{
+  height: 50px;
+  display:table-row;
+}
+.Featured{
+
+}
